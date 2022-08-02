@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{box-sizing: border-box;}
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+   
+    overflow: hidden;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+    width: 50vw;
+    padding: 45px 30px;
+}
+
+.text-decoration:hover{
+  text-decoration:none;
+}
+
+.font-family:hover{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.background-color:hover{
+  background-color: green;
+}
+
+.font-size:hover{
+  font-size: 30px;
+}
+
+.color:hover{
+  color: blueviolet;
+}
+
+a{
+  padding-top: 15px;
+}
