@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{box-sizing: border-box;}
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.containerOne , .containerTwo , .containerThree{
+    width: 90vw;
+}
+.containerOne h3{
+  background-color: DodgerBlue;
+}
+.containerOne p{
+  background-color: Tomato;
+}
+
+.containerTwo h3{
+  background-color: MediumSeaGreen;
+
+}
+
+.containerTwo div{
+  background-color: aquamarine;
+}
+
+.containerTwo p{
+  background-color: yellow;
+}
+
+.containerThree h3{
+  color: tomato;
+}
+
+.first{
+  color: DodgerBlue;
+}
+.Second{
+  color: MediumSeaGreen;
+}
