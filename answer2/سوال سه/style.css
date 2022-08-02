@@ -1,0 +1,31 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #e5e5e5;
+}
+
+body,
+html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    padding: 5px 20px;
+    background-color: #6200ee;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    box-shadow: 0px 10px 13px -7px #000000, 0px -3px 14px 9px rgba(0, 0, 0, 0);
+}
+
+a:active {
+    box-shadow: 0px 0px 0px 8px #000000, 0px 0px 0px 16px #4B4C4B, 0px 0px 0px 24px #828482, 0px 0px 0px 31px #B2B5B2, 0px 0px 0px 39px #DADDDA, 0px -3px 14px 9px rgba(0, 0, 0, 0);
+}
